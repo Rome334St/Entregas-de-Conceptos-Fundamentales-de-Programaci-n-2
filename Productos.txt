@@ -1,0 +1,10 @@
+P1;Producto1;66.03
+P2;Producto2;20.49
+P3;Producto3;38.01
+P4;Producto4;38.62
+P5;Producto5;58.12
+P6;Producto6;17.53
+P7;Producto7;79.24
+P8;Producto8;64.51
+P9;Producto9;98.58
+P10;Producto10;68.91

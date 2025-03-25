@@ -1,0 +1,5 @@
+CC;N°1;Nombre1;Apellidos1
+CC;N°2;Nombre2;Apellidos2
+CC;N°3;Nombre3;Apellidos3
+CC;N°4;Nombre4;Apellidos4
+CC;N°5;Nombre5;Apellidos5
