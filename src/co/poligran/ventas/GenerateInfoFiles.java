@@ -45,7 +45,7 @@ public class GenerateInfoFiles {
      * @param productCount 
      */
     public static void createProductsFile(int productCount) {
-        String fileName = "Productos.txt";
+        String fileName = "datos/Productos.txt";
         try (PrintWriter writer = new PrintWriter(fileName)) {
             for (int i = 1; i <= productCount; i++) {
                 String id = "P" + i;
@@ -66,7 +66,7 @@ public class GenerateInfoFiles {
      * @param count 
      */
     public static void createSalesManInfoFile(int count) {
-        String fileName = "Vendedores.txt";
+        String fileName = "datos/Vendedores.txt";
         try (PrintWriter writer = new PrintWriter(fileName)) {
             for (int i = 1; i <= count; i++) {
                 String tipoDocumento = "CC";
@@ -89,7 +89,7 @@ public class GenerateInfoFiles {
      * @param id     
      */
     public static void createSalesFile(int count, String nombre, long id) {
-        String fileName = nombre + "_ventas.txt";
+        String fileName = "datos/"+ nombre + "_ventas.txt";
         try (PrintWriter writer = new PrintWriter(fileName)) {
             writer.println("CC;" + id);
 
